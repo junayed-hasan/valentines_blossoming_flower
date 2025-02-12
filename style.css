@@ -1,0 +1,48 @@
+body {
+  background: #ffe6f2;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  color: #ff66a3;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+  background-color: #ff99cc;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff4d94;
+}
+
+#message {
+  font-size: 20px;
+  color: #ff1a75;
+  margin: 20px;
+}
+
+canvas {
+  border: 2px solid #ff66a3;
+  background: #fff;
+  display: none; /* Hidden until a button is clicked */
+  margin: 20px auto;
+}
